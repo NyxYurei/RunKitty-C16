@@ -73,8 +73,8 @@ function draw() {
   if(gameState == 0){
     spawnSoul();
     spawnMonster()
-   levelground.velocityX = (4 +3* score/600);
-   level1.velocityX = -(4 +3* score/600);
+   levelground.velocityX = (4 +2* score/600);
+   level1.velocityX = -(4 +2* score/600);
  
    score = score + Math.round(getFrameRate()/60)
    //collectd souls
